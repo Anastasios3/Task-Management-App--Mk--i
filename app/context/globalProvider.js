@@ -5,6 +5,8 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useUser } from "@clerk/nextjs";
 
+// path: task-manager/app/context/globalProvider.js
+
 export const GlobalContext = createContext();
 export const GlobalUpdateContext = createContext();
 

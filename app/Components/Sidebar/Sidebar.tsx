@@ -11,6 +11,8 @@ import Button from "../Button/Button";
 import { arrowLeft, bars, logout } from "@/app/utils/Icons";
 import { UserButton, useClerk, useUser } from "@clerk/nextjs";
 
+//path: task-manager/app/Components/Sidebar/Sidebar.tsx
+
 function Sidebar() {
   const { theme, collapsed, collapseMenu } = useGlobalState();
   const { signOut } = useClerk();
