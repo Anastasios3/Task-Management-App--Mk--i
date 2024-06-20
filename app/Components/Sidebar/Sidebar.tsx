@@ -273,7 +273,7 @@ const SidebarStyled = styled.nav<{ collapsed: boolean }>`
 
     &:hover {
       &::after {
-        width: 100%;
+        width: 80%;
       }
     }
   }
